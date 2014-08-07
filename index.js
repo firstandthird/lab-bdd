@@ -2,7 +2,7 @@ module.exports = function(Lab) {
   //check if lab 4.0.0
   var lab = Lab;
   if (typeof Lab.script == 'function') {
-    lab = exports.lab = Lab.script();
+    lab = Lab.script();
   }
   global.expect = Lab.expect;
   global.describe = lab.describe;
@@ -14,4 +14,5 @@ module.exports = function(Lab) {
 
   global.it.skip = function() {};
   global.describe.skip = function() {};
+  return lab;
 };
