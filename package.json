@@ -3,7 +3,7 @@
   "description": "Adds global describe, it, before, after for lab",
   "homepage": "https://github.com/firstandthird/lab-bdd",
   "author": "First+Third",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/firstandthird/lab-bdd.git"
