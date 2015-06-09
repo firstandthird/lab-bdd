@@ -4,7 +4,6 @@ module.exports = function(Lab) {
   if (typeof Lab.script == 'function') {
     lab = Lab.script();
   }
-  global.expect = Lab.expect;
   global.describe = lab.describe;
   global.it = lab.it;
   global.before = lab.before;
